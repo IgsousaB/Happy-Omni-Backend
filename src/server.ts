@@ -67,17 +67,19 @@ app.use(routes);
 
 // 14. CRIAR ROTAS
 // 15. CONFIGURAR O IMNSONIA
-
 // 16. SEPARAR ROTAS #2 59:00
-
 // 17. SEPARAR CONTROLLERS #2 1:02:00
-
 // 18. CRIAR TABELA DE IMAGES  >  yarn typeorm migration:create -n images
 
 
 app.listen(3333);
 
 
+// 19. PREPARAR UPLOAD DE IMAGES (1:16:25)
+// yarn add multer ; yarn add @types/multer -D
+// CREATE config/upload.ts
+
+// 20. INCLUIR UPLOAD NAS ROTAS routes.ts
 
 
 
